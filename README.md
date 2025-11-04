@@ -99,9 +99,9 @@ En contraste, la Prueba 3 muestra un speedup de 0.75, indicando que el modo secu
 
 El archivo `main.go` contiene las siguientes funciones principales:
 
-- **SimularProofOfWork**: Calcula un nonce que cumple con la dificultad especificada usando SHA-256
+- **SimularProofOfWork**: Calcula un nonce que cumple con la dificultad especificada 
 - **EncontrarPrimos**: Busca numeros primos hasta el valor maximo indicado
-- **CalcularTrazaDeProductoDeMatrices**: Calcula la traza del producto de dos matrices (funcion de decision)
+- **CalcularTrazaDeProductoDeMatrices**: Calcula la traza del producto de dos matrices 
 - **EjecutarEspeculativo**: Ejecuta ambas ramas en paralelo y cancela la rama no seleccionada
 - **EjecutarSecuencial**: Ejecuta unicamente la rama correcta segun el resultado de la decision
 - **GuardarBenchmark**: Realiza 30 ejecuciones de cada modo y calcula estadisticas de rendimiento

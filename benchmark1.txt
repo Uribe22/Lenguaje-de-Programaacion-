@@ -1,0 +1,76 @@
+-- BENCHMARK: 30 EJECUCIONES --
+Parámetros:
+ - Block Data:        blockchain_data
+ - Dificultad PoW:    4
+ - Max Primos:        5000
+ - Dimensión Matriz:  15
+ - Umbral:            200
+
+-- RESULTADOS --
+ Promedio Especulativo: 17 ms
+ Promedio Secuencial:   17 ms
+ Speedup:               x1.00
+
+Tiempos Especulativos:
+  Ejecución  1: 19 ms
+  Ejecución  2: 17 ms
+  Ejecución  3: 18 ms
+  Ejecución  4: 18 ms
+  Ejecución  5: 19 ms
+  Ejecución  6: 18 ms
+  Ejecución  7: 17 ms
+  Ejecución  8: 16 ms
+  Ejecución  9: 17 ms
+  Ejecución 10: 18 ms
+  Ejecución 11: 18 ms
+  Ejecución 12: 17 ms
+  Ejecución 13: 18 ms
+  Ejecución 14: 18 ms
+  Ejecución 15: 19 ms
+  Ejecución 16: 18 ms
+  Ejecución 17: 17 ms
+  Ejecución 18: 18 ms
+  Ejecución 19: 17 ms
+  Ejecución 20: 17 ms
+  Ejecución 21: 17 ms
+  Ejecución 22: 19 ms
+  Ejecución 23: 17 ms
+  Ejecución 24: 19 ms
+  Ejecución 25: 17 ms
+  Ejecución 26: 18 ms
+  Ejecución 27: 19 ms
+  Ejecución 28: 17 ms
+  Ejecución 29: 18 ms
+  Ejecución 30: 20 ms
+
+Tiempos Secuenciales:
+  Ejecución  1: 17 ms
+  Ejecución  2: 19 ms
+  Ejecución  3: 16 ms
+  Ejecución  4: 17 ms
+  Ejecución  5: 17 ms
+  Ejecución  6: 18 ms
+  Ejecución  7: 17 ms
+  Ejecución  8: 16 ms
+  Ejecución  9: 17 ms
+  Ejecución 10: 18 ms
+  Ejecución 11: 19 ms
+  Ejecución 12: 17 ms
+  Ejecución 13: 18 ms
+  Ejecución 14: 21 ms
+  Ejecución 15: 22 ms
+  Ejecución 16: 18 ms
+  Ejecución 17: 17 ms
+  Ejecución 18: 17 ms
+  Ejecución 19: 17 ms
+  Ejecución 20: 17 ms
+  Ejecución 21: 18 ms
+  Ejecución 22: 16 ms
+  Ejecución 23: 22 ms
+  Ejecución 24: 18 ms
+  Ejecución 25: 17 ms
+  Ejecución 26: 18 ms
+  Ejecución 27: 22 ms
+  Ejecución 28: 19 ms
+  Ejecución 29: 17 ms
+  Ejecución 30: 16 ms

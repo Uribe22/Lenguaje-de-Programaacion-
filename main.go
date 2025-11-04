@@ -272,7 +272,7 @@ func GuardarBenchmark(nombreArchivo, blockData string, dificultad, maxPrimos, di
 
 	fmt.Fprintf(arch, "Tiempos Especulativos:\n")
 	for i, t := range tiemposEsp {
-		fmt.Fprintf(arch, "  Ejecución %2d: %d ms\n", i+1, t.Milliseconds())
+		fmt.Fprintf(arch, " Ejecución %2d: %d ms\n", i+1, t.Milliseconds())
 	}
 
 	fmt.Fprintf(arch, "\nTiempos Secuenciales:\n")
@@ -284,8 +284,6 @@ func GuardarBenchmark(nombreArchivo, blockData string, dificultad, maxPrimos, di
 }
 
 func main() {
-	rand.Seed(1)
-
 	if len(os.Args) != 7 && len(os.Args) != 8 {
 		fmt.Println("Error: se requieren 6 argumentos: <blockData> <dificultad> <maxPrimos> <n> <umbral> <nombreArchivo> [--bmmode: modo benchmark opcional]")
 		return
